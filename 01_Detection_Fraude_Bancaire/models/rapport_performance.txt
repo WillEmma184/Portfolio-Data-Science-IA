@@ -1,0 +1,19 @@
+==================================================
+RAPPORT MÉTIER : DÉTECTION DE FRAUDE BANCAIRE
+==================================================
+
+Modèle évalué : XGBoost + SMOTE
+Nombre de transactions testées : 56962
+
+--- MÈTRIQUES CLÉS ---
+Rappel (Recall - Capacité à détecter la fraude) : 88.78%
+Précision (Fiabilité des alertes de fraude) : 52.73%
+Score F1 (Équilibre) : 66.16%
+
+--- MATRICE DE CONFUSION ---
+Vrais Légitimes : 56786  | Faux Positifs (Fausses alertes) : 78
+Faux Négatifs (Fraudes ratées) : 11 | Vrais Positifs (Fraudes détectées) : 87
+
+--- CONCLUSION AIDE À LA DÉCISION ---
+Le modèle priorise la couverture du risque (Rappel élevé).
+Les variables V14, V4 et V12 impactent le plus les décisions selon l'analyse SHAP.

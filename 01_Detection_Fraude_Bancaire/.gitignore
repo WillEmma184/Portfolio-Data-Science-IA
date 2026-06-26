@@ -1,0 +1,15 @@
+# Ne pas suivre les gros datasets
+*.csv
+*.xlsx
+*.json
+
+# Ne pas suivre les environnements virtuels Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Fichiers système ou de configuration VS Code
+.vscode/
+.DS_Store
