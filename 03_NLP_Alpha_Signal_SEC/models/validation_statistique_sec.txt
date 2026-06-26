@@ -1,0 +1,3 @@
+Rapport de Validation Statistique - FinBERT vs Baseline
+Statistique DM Globale : 38.49347348165684
+P-value Globale : 0.0
